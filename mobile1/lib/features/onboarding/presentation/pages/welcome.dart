@@ -79,12 +79,12 @@ class _WelcomePageState extends State<WelcomePage> {
                     child: Row(
                       children: [
                         // indicators
-                        Expanded(
-                          child: PageIndicator(
-                            pages: _pages,
-                            currentPageIndex: _currentPage,
-                          ),
-                        ),
+                        // Expanded(
+                        //   child: PageIndicator(
+                        //     pages: _pages,
+                        //     currentPageIndex: _currentPage,
+                        //   ),
+                        // ),
 
                         // round button
                         FloatingActionButton(
@@ -95,8 +95,8 @@ class _WelcomePageState extends State<WelcomePage> {
                             //       builder: (context) => HomePage()),
                             // );
                             // navigate to a certain page and remove all other pages in the route stack
-                            context.router.pushAndPopUntil(HomeRoute(),
-                                predicate: (route) => false);
+                            // context.router.pushAndPopUntil(HomeRoute(),
+                            //     predicate: (route) => false);
 
                             // remove current route and navigate to new page
                             // context.router.popAndPush(HomeRoute());
@@ -121,37 +121,37 @@ class _WelcomePageState extends State<WelcomePage> {
               width: kWidth,
               height: kHeight,
               decoration: BoxDecoration(
-                // color: kColorScheme.onBackground,
-                image: DecorationImage(
-                  //*******image: AssetImage(),****************
-                  fit: BoxFit.cover,
-                ),
+                  // color: kColorScheme.onBackground,
+                  // image: DecorationImage(
+                  //   fit: BoxFit.cover,
+                  //   image: AssetImage(""),
+                  // ),
+                  ),
+            ),
+          ),
 
-
-                Expanded(flex:4, child: 
-            Column(
+          Expanded(
+            flex: 4,
+            child: Column(
               children: [
                 //SIGN IN BUTTON
-                    _AuthButton(
-                    background: Colors.green, 
-                    foreground: Colors.black26, 
-                    label: "login In", 
-                    Icon: Category, 
-                    onPressed: (){},
-                    ),
+                // _AuthButton(
+                //   background: Colors.green,
+                //   foreground: Colors.black26,
+                //   label: "login In",
+                //   Icon: Category,
+                //   onPressed: (){},
+                // ),
 
                 //GET STARTED BUTTON
-                     _AuthButton(
-                    background: Color(0xff1778F2), 
-                    foreground: Colors.black, 
-                    label: "Connect with Facebook", 
-                    Icon: Category, 
-                    onPressed: (){},
-                    ),
-
-
-
-              ),
+                // _AuthButton(
+                //   background: Color(0xff1778F2),
+                //   foreground: Colors.black,
+                //   label: "Connect with Facebook",
+                //   Icon: Category,
+                //   onPressed: (){},
+                // ),
+              ],
             ),
           ),
         ],

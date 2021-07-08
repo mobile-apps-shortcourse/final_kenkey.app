@@ -39,7 +39,7 @@ TextTheme kDefaultTextTheme(BuildContext context) {
         fontSize: 34,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.25),
-    headline5: GoogleFonts.roboto(fontSize: 24, fontWeight: FontWeight.w400),
+    headline5: _primaryFont(fontSize: 24, fontWeight: FontWeight.w400),
     headline6: _primaryFont(
         color: kColorScheme.background,
         fontSize: 20,
