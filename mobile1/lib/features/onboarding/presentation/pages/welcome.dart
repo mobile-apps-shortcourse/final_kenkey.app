@@ -3,7 +3,7 @@
 /// Created Date: Thursday, July 1st 2021, 12:19:25 am
 /// Author: David Afotey <dcs@ug.edu.gh>
 /// -----
-/// Last Modified: Thursday, July 8th 2021 2:01:25 pm
+/// Last Modified: Thursday, July 8th 2021 2:42:30 pm
 /// Modified By: David Afotey <dcs@ug.edu.gh>
 /// -----
 /// Copyright (c) 2021 Department of Computer Science
@@ -20,7 +20,7 @@ class WelcomePage extends StatefulWidget {
 
 class _WelcomePageState extends State<WelcomePage> {
   // configure page view
-  int _currentPage = 0, _pages = 5;
+  int _currentPage = 0, _pages = 6;
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +55,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     child: PageView.builder(
                       itemBuilder: (context, index) {
                         return Text(
-                          'New collection\nSpring 2021',
+                          'Finest Kenkey In Accra \nIn July',
                           style: kTextTheme.headline4?.copyWith(
                             color: Colors.black,
                           ),
@@ -126,6 +126,31 @@ class _WelcomePageState extends State<WelcomePage> {
                   //*******image: AssetImage(),****************
                   fit: BoxFit.cover,
                 ),
+
+
+                Expanded(flex:4, child: 
+            Column(
+              children: [
+                //SIGN IN BUTTON
+                    _AuthButton(
+                    background: Colors.green, 
+                    foreground: Colors.black26, 
+                    label: "login In", 
+                    Icon: Category, 
+                    onPressed: (){},
+                    ),
+
+                //GET STARTED BUTTON
+                     _AuthButton(
+                    background: Color(0xff1778F2), 
+                    foreground: Colors.black, 
+                    label: "Connect with Facebook", 
+                    Icon: Category, 
+                    onPressed: (){},
+                    ),
+
+
+
               ),
             ),
           ),

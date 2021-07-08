@@ -3,7 +3,7 @@
 /// Created Date: Thursday, July 8th 2021, 8:53:59 am
 /// Author: David Afotey <dcs@ug.edu.gh>
 /// -----
-/// Last Modified: Thursday, July 8th 2021 2:01:18 pm
+/// Last Modified: Thursday, July 8th 2021 2:42:33 pm
 /// Modified By: David Afotey <dcs@ug.edu.gh>
 /// -----
 /// Copyright (c) 2021 Department of Computer Science
@@ -129,7 +129,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
               flex:1, 
               child: Center(
                 child: Text(
-                  "Don't have an account \n ",
+                  "Don't have an account",
                 
                    style: kTextTheme.headline6
                     != null?,
