@@ -3,13 +3,13 @@
 /// Created Date: Sunday, June 20th 2021, 11:28:07 am
 /// Author: David Afotey <dcs@ug.edu.gh>
 /// -----
-/// Last Modified: Thursday, July 1st 2021 12:10:46 am
+/// Last Modified: Thursday, July 8th 2021 2:01:35 pm
 /// Modified By: David Afotey <dcs@ug.edu.gh>
 /// -----
 /// Copyright (c) 2021 Department of Computer Science
 
 import 'package:flutter/material.dart';
-import 'package:kenkey_app/features/auth/presentation/pages/welcome.dart';
+import 'package:kenkey_app/features/auth/presentation/pages/splashscreen.dart';
 import 'package:kenkey_app/shared/ui.dart';
 
 class FoodDelivery_App extends StatelessWidget {

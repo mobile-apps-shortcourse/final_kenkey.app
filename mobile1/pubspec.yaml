@@ -1,4 +1,4 @@
-# Filename: c:\Users\David\OneDrive\Desktop\final_kenkey.app\kenkey_app\lib\main.dart
+# Filename: c:\Users\David\Documents\kenkey_app\mobile1\pubspec.yaml
 # Path: c:\Users\David\OneDrive\Desktop\final_kenkey.app\kenkey_app
 # Created Date: Thursday, June 17th 2021, 7:35:56 am
 # Author: David Afotey
@@ -35,6 +35,7 @@ dependencies:
   flutter_bloc: ^7.0.1
   google_fonts: ^2.1.0
   material_colors: ^0.0.2
+  url_launcher: ^6.0.9
 
 dev_dependencies:
   flutter_test:
